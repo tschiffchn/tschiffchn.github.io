@@ -4,6 +4,7 @@ This Is My Website
 <html lang="en-US">
 <head>
 <title>Page Title</title>
+    <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
 </head>
 <body>
 ​
@@ -54,6 +55,16 @@ Nevermind, I figured it out
 <p> <a herf="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">All html elements</a> </p>
 <p>for some reason the links above are not working</p>
 ​
-<p>Have a great day Mark!</p>
+<p>Have a great day Mark!</p>  
+<a-scene>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+</a-scene>
 </body>
 </html>
+
+
+
